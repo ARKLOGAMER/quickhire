@@ -1,16 +1,90 @@
-# quickhire1
+# QuickHire
 
-A new Flutter project.
+QuickHire is a local job posting and hiring platform designed to connect employers with job seekers for daily wage and short-term work. Built with Flutter, it provides a seamless experience for posting jobs, real-time updates, and managing applications efficiently.
+
+## Features
+
+- **Job Posting System**  
+  Employers can post jobs with details such as job title, description, wage, and location.
+
+- **Real-Time Updates**  
+  Live updates for newly posted jobs and application statuses.
+
+- **User Authentication**  
+  Secure login/signup for both job seekers and employers.
+
+- **Admin Panel**  
+  Separate login for admins to manage and moderate job posts and users.
+
+- **State Management**  
+  Implemented using the Provider package for efficient UI updates.
+
+- **Clean UI**  
+  Based on a custom Figma design, optimized for ease of use and accessibility.
+
+## Screenshots
+
+*(Add screenshots here once available)*
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+- Flutter SDK
+- Dart
+- Android Studio or VS Code
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/quickhire.git
+   cd quickhire
+
+2. Install dependencies:
+
+flutter pub get
+
+
+3. Run the app:
+
+flutter run
+
+
+
+Folder Structure
+
+lib/
+├── main.dart
+├── screens/
+│   ├── home.dart
+│   ├── job_post.dart
+│   └── ...
+├── models/
+├── providers/
+└── widgets/
+
+Tech Stack
+
+Flutter – Frontend UI
+
+Firebase (optional) – For auth and database (if integrated)
+
+Provider – State management
+
+
+Contributors
+
+Abel Sebastian (Arklo)
+
+Adith U
+
+Advaitha R G
+
+Akhil R Krishnan
+
+
+License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
